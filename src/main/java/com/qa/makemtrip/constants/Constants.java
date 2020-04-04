@@ -12,4 +12,8 @@ public class Constants extends BaseClass{
 	public static String  FirefoxKey = "webdriver.Firefox.driver";
 	public static String FirefoxValue = getCurDir()+"\\drivers\\geckodriver.exe";
 	
+	public static final void constant() {
+		System.out.println("Dummy method");
+	}
+	
 }
