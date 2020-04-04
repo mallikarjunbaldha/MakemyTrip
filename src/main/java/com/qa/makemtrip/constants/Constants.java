@@ -3,6 +3,10 @@ package com.qa.makemtrip.constants;
 import com.qa.makemytrip.base.BaseClass;
 
 public class Constants extends BaseClass{
+	public Constants() {
+		super();
+	}
+	
 
 	public static String  ChromeKey = "webdriver.Chrome.driver";
 	//public static String ChromeValue= getCurDir()+"\\drivers\\chromedriver.exe";
